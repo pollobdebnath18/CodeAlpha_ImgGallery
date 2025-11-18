@@ -1,0 +1,20 @@
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.title-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.title-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    background: blue;
+    color: white;
+}

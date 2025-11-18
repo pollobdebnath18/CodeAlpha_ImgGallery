@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <!-- Daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+    <section class="title-img">
+      <div>
+        <h1 class="title-text">Image Gallery</h1>
+      </div>
+
+      <div class="btn-div">
+        <button class="btn">All</button>
+        <button class="btn">Nature</button>
+        <button class="btn">Flower</button>
+        <button class="btn">Animal</button>
+        <button class="btn">Birds</button>
+      </div>
+    </section>
+    <section class="w-11/12 mx-auto ">
+      <div class="card bg-base-100 image-full w-96 shadow-sm">
+       <img src="img/ntr-1.avif" alt="">
+        <div class="card-body">
+        </div>
+      </div>
+    </section>
+
+    <!-- JS File -->
+    <script src="connector.js"></script>
+  </body>
+</html>
