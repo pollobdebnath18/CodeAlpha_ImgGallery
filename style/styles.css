@@ -25,13 +25,16 @@
     background: blue;
     color: white;
     margin-top: 5px;
-    width: 200px;
-    height: 35px;
+    width: 180px;
+    height: 40px;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .img{
     border-radius: 10px;
