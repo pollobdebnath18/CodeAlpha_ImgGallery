@@ -6,6 +6,7 @@
     padding-top: 25px;
     padding-bottom: 50px;
 }
+
 .title-img{
     text-align: center;
     margin-top: 20px;
@@ -18,6 +19,19 @@
     background: blue;
     color: white;
     margin-top: 5px;
+    /* width: 200px; */
+}
+.btn1{
+    background: blue;
+    color: white;
+    margin-top: 5px;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 .img{
     border-radius: 10px;
