@@ -20,6 +20,9 @@
     color: white;
     margin-top: 5px;
 }
+.btn:hover{
+    background: #228B22;
+}
 .btn1{
     background: blue;
     color: white;
@@ -42,4 +45,15 @@
 }
 .hidden{
     display: none;
+}
+
+/* small device */
+@media screen  and (max-width:640px){
+    .btn-div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }    
 }
