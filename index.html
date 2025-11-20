@@ -22,7 +22,7 @@
       </div>
 
       <div class="btn-div">
-        <button class="btn">All</button>
+        <button class="btn hover:bg-gray-900">All</button>
         <button class="btn">Nature</button>
         <button class="btn">Flower</button>
         <button class="btn">Animal</button>
@@ -148,7 +148,22 @@
         <button class="btn1">Details</button>
       </div>
     </section>
-
+    <section class="w-10/12 mx-auto">
+      <!-- Open the modal using ID.showModal() method -->
+      <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="text-lg font-bold">Hello!</h3>
+          <p class="py-4">Press ESC key or click the button below to close</p>
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Close</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </section>
     <!-- JS File -->
     <script src="connector.js"></script>
   </body>
